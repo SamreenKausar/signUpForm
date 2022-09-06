@@ -8,16 +8,54 @@
     <title>Sign Up Form</title>
 </head>
 <body>
-   <div class="container">
+<div class="container">
     <div class="col1">
-        <img src="img/leaf.jpg">
+        <div class="logo">
+            <img src="img/odin-lined.png" alt="Odin">
+            <p>Odin</p>
+        </div>
     </div>
     <div class="col2">
-        <p>This is not real online service! You know you need something like this in your life to help you realise your deepest dreams. Signup now to get started. </p>
-        <p>You <em>know</em> you want to</p>
+        <div class="textArea">
+            <p>This is not real online service! You know you need something like this in your life to help you realise your deepest dreams. Signup now to get started. </p>
+            <p>You <em>know</em> you want to</p>
+        </div>
+        <div class="form">
+            <form action="#">
+                <p>Lets do this!</p>
+                <div class="form">
+                     <div class="input" >
+                         <label for="firstName">First Name</label>
+                         <input type="text" name="firstName" id="firstName">
+                     </div>
+                     <div class="input">
+                         <label for="lastName">Last Name</label>
+                         <input type="text" name="lastName" id="lastName">
+                     </div>
+                     <div class="input">
+                         <label for="email">Email</label>
+                         <input type="email" name="email" id="email">
+                     </div>
+                     <div class="input">
+                         <label for="phoneNum">Phone Number</label>
+                         <input type="tel" name="phoneNum" id="phoneNum">
+                     </div>
+                     <div class="input">
+                         <label for="pwd">Password</label>
+                         <input type="password" name="pwd" id="pwd">
+                     </div>
+                     <div class="input">
+                         <label for="cnfpwd">Confirm Password</label>
+                         <input type="password" name="cnfpwd" id="cnfpwd">
+                     </div>
+                </div>
+                 <input type="submit" name="submit" id="submit">
+             </form>
+        </div>
+        <div class="login">
+            <p>Already have an account? <a href="signIn.html">logIn</a></p>
+        </div>
     </div>
-   </div> 
-   
-   
+</div>   
 </body>
 </html>
