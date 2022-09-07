@@ -18,44 +18,50 @@
     <div class="col2">
         <div class="textArea">
             <p>This is not real online service! You know you need something like this in your life to help you realise your deepest dreams. Signup now to get started. </p>
-            <p>You <em>know</em> you want to</p>
+            <p>You <em>know</em> you want to.</p>
         </div>
-        <div class="form">
-            <form action="#">
+        <form action="#" class="form">
+            <div class="textInput">
                 <p>Lets do this!</p>
-                <div class="form">
-                     <div class="input" >
-                         <label for="firstName">First Name</label>
-                         <input type="text" name="firstName" id="firstName">
-                     </div>
-                     <div class="input">
-                         <label for="lastName">Last Name</label>
-                         <input type="text" name="lastName" id="lastName">
-                     </div>
-                     <div class="input">
-                         <label for="email">Email</label>
-                         <input type="email" name="email" id="email">
-                     </div>
-                     <div class="input">
-                         <label for="phoneNum">Phone Number</label>
-                         <input type="tel" name="phoneNum" id="phoneNum">
-                     </div>
-                     <div class="input">
-                         <label for="pwd">Password</label>
-                         <input type="password" name="pwd" id="pwd">
-                     </div>
-                     <div class="input">
-                         <label for="cnfpwd">Confirm Password</label>
-                         <input type="password" name="cnfpwd" id="cnfpwd">
-                     </div>
+                <div class="input" >
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
                 </div>
-                 <input type="submit" name="submit" id="submit">
-             </form>
-        </div>
-        <div class="login">
-            <p>Already have an account? <a href="signIn.html">logIn</a></p>
+                <div class="input">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </div>
+                <div class="input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="input">
+                    <label for="phoneNum">Phone Number</label>
+                    <input type="tel" name="phoneNum" id="phoneNum" pattern="[+][0-9]{12}">
+                </div>
+                <div class="input">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd" >
+                </div>
+                <div class="input">
+                    <label for="cnfpwd">Confirm Password</label>
+                    <input type="password" name="cnfpwd" id="cnfpwd" min="8" >
+                </div>
+            </div>
+            <input type="submit" name="submit" id="submit" value="Create Account">
+        </form>
+        <div class="logIn">
+            <p>Already have an accout? <a href="login.html">Log in</a></p>
         </div>
     </div>
 </div>   
 </body>
 </html>
+
+
+
+   
+        
+        
+    </div>               
+</form>
