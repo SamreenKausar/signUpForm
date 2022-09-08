@@ -24,7 +24,7 @@
     height: 100vh;
     width: 30vw;
     background-color: green;
-    background-image: url(img/leaf.jpg);
+    background-image: url(img/balance.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80vh;
@@ -32,9 +32,9 @@
 }
 
 .logo{
-    background-color: rgba(0, 0, 0, 0.3);
-    position:relative;
-    top: 25vh;
+    background-color: rgba(183, 54, 3, 0.3);
+    /* position:relative;
+    top: 2vh; */
     height: 20vh;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
 }
 .logo p{
     font-size: 15vh;
-    color: white;
+    color: #b73603;
     font-family: 'samarkan_____normal';
 }
 
@@ -55,7 +55,8 @@
     height: 100vh;
     width: 70vw;
     padding-top: 15vh;
-    background-color: rgb(242, 247, 250);
+    background-color: #c4d3da;
+    color: #032f43;
     font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -71,18 +72,15 @@
     flex-direction: column;
     gap: 4vh;
 }
-.textArea p{
- 
-}
-.form{
-    height: auto;
-    width: 100%;
-    background-color: white;
-    height: 30vh;
-    padding: 2vw;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 2px 2px, rgba(0, 0, 0, 0.05) 0px 4px 4px, rgba(0, 0, 0, 0.05) 0px 8px 8px, rgba(0, 0, 0, 0.05) 0px 16px 16px; 
-}
+
 .textInput{
+    width: 100%;
+    height: auto;
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px, rgba(0, 0, 0, 0.05) 0px 2px 2px, rgba(0, 0, 0, 0.05) 0px 4px 4px, rgba(0, 0, 0, 0.05) 0px 8px 8px, rgba(0, 0, 0, 0.05) 0px 16px 16px; 
+    /* margin-bottom: 3vh; */
+    background-color: #eaeef0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -91,6 +89,8 @@
 .textInput p{
     width: 100%;
     padding-bottom: 1vw;
+    font-size: 2.5vh;
+    font-weight: 700;
 }
 
 .input{
@@ -99,24 +99,25 @@
     width: 40%;
     padding-bottom: 1vw;
     padding-right: 2vw;
+    
 }
 .input input{
     border: 1px solid #E5E7EB;
     border-radius: 3px;
-    height: 3vh;
+    height: 3.5vh;
 }
 .input label{
-    padding-bottom: 2px;
+    padding-bottom: 3px;
     font-size: small;
     text-transform: uppercase;
 
 }
 
 #submit{
-    margin-top: 2vh;
-    padding: 8px 40px;
-    background-color: #596D48;
-    border: 1px solid #596D48;
+    margin: 3vh 2vw;
+    padding: 12px 40px;
+    background-color: #b73603;
+    border: 1px solid #b73603;;
     color: white;
     font-size: medium;
     border-radius: 5px;
@@ -124,15 +125,23 @@
 }
 input:focus{
     outline: none;
-    border: 1px solid rgb(39, 114, 185);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    border: 1px solid #032f43;
+    box-shadow: rgba(3, 47, 67, 0.24) 0px 3px 8px;;
 }
 input:invalid{
     outline: none;
-    border: 1px solid rgb(205, 29, 38);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    border: 1px solid rgb(183, 54, 3);;
+    box-shadow: rgba(183, 54, 3, 0.24) 0px 3px 8px;;
 }
 
+.logIn{
+    margin-left: 2vw ;
+}
+.logIn a{
+    text-decoration: none;
+    color: #b73603;
+    font-weight: 700;
+}
 
 
 
