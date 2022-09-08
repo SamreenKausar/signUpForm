@@ -14,6 +14,7 @@
             <img src="img/odin-lined.png" alt="Odin">
             <p>Odin</p>
         </div>
+        <p class="copywrite">Photo by <a href="https://unsplash.com/@bekirdonmeez">Bekir Donmeez</a> </p>
     </div>
     <div class="col2">
         <div class="textArea">
@@ -41,11 +42,13 @@
                 </div>
                 <div class="input">
                     <label for="pwd">Password</label>
-                    <input type="password" name="pwd" id="pwd" >
+                    <input type="password" name="pwd" id="pwd" min="8">
+                    <span>*Passwords do not match</span>
                 </div>
                 <div class="input">
                     <label for="cnfpwd">Confirm Password</label>
-                    <input type="password" name="cnfpwd" id="cnfpwd" min="8" >
+                    <input type="password" class="error" name="cnfpwd" id="cnfpwd" min="8" >
+                
                 </div>
             </div>
             <input type="submit" name="submit" id="submit" value="Create Account">
