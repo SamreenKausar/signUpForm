@@ -50,7 +50,17 @@
     color: #b73603;
     font-family: 'samarkan_____normal';
 }
-
+.copywrite{
+    color: #ede7e4;
+    font-size: 16px;
+    position: relative;
+    top: 75vh;
+    left: 10vw;
+}
+.copywrite a{
+    text-decoration: none;
+    color: #ede7e4;
+}
 .col2{
     height: 100vh;
     width: 70vw;
@@ -112,6 +122,10 @@
     text-transform: uppercase;
 
 }
+.input span{
+    color: #b73603;
+    font-size: small;
+}
 
 #submit{
     margin: 3vh 2vw;
@@ -123,6 +137,10 @@
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
+#pwd, #cnfpwd{
+    border: 1px solid rgb(183, 54, 3);
+    /* box-shadow: rgba(183, 54, 3, 0.24) 0px 3px 8px;   */
+}
 input:focus{
     outline: none;
     border: 1px solid #032f43;
@@ -130,8 +148,8 @@ input:focus{
 }
 input:invalid{
     outline: none;
-    border: 1px solid rgb(183, 54, 3);;
-    box-shadow: rgba(183, 54, 3, 0.24) 0px 3px 8px;;
+    border: 1px solid rgb(183, 54, 3);
+    box-shadow: rgba(183, 54, 3, 0.24) 0px 3px 8px;
 }
 
 .logIn{
